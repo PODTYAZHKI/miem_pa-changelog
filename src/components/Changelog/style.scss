@@ -1,0 +1,134 @@
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.changelog {
+		&-heading {
+			height: 80px;
+			background: #EDF1F7;
+			margin-bottom: 27px;
+			display: flex;
+			&-inner{
+				width: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				margin: 0 120px;
+			}
+		}
+		&-container {
+			font-family: 'Gilroy Medium', Arial, sans-serif;
+			padding: 0 0 60px;
+			margin: 0;
+			width: 100%;
+			background-color: #F5F7FA;
+			min-height: calc(100vh - 80px);
+		}
+		&-h1 {
+			// padding-left: 120px;
+			font-family: 'Gilroy Medium', Arial, sans-serif;
+			font-size: 24px;
+			margin: 0;
+		}
+		&-button{
+			opacity: 1;
+			padding:10px 30px;
+			background: #0486FE;
+			border-radius: 4px;
+			border: none;
+			color: #fff;
+			cursor: pointer;
+			text-decoration: none;
+			outline: none;
+			transition: opacity .1 linear;
+			// margin-right: 120px;
+		}
+		&-button:hover{
+			opacity: 0.6;
+
+		}
+		&-body {
+			padding: 0 120px;
+		}
+		&-subtext {
+			height: 66px;
+			font-weight: 400;
+			line-height: 22px;
+			font-size: 15px;
+		}
+		&-subtext span {
+			color:#0486FE;
+			cursor: pointer;
+			
+		}
+		&-logs-wrapper {
+			ul{
+				margin: 0;
+				padding: 0;
+			}
+			.log{
+				margin-top: 24px;
+				background: #fff;
+				margin-bottom: 24px;
+				list-style-type: none;
+				max-width: 1200px;
+				padding: 30px;
+				border: 1px solid #DFE0EB;
+				border-radius: 4px;
+
+				&-time{
+					font-weight: 600;
+					font-size: 19px;
+					// margin-bottom: 24p	x;
+				}
+				.item{
+					list-style-type: none;
+
+					&-status{
+					font-weight: 600;
+					font-size: 12px;
+					padding: 4px 10px;
+					text-align: center;
+					border-radius: 15px;
+					margin-bottom: 12px;
+					margin-top: 24px;
+					}
+					&-info {
+						// margin-bottom: 27px;
+					}
+					&-more {
+						color: #4066FF;
+						font-weight: 400;
+						font-size: 12px;
+						cursor: pointer;
+						text-decoration: underline;
+						margin: 4px 0;
+					}
+				}
+				
+			}
+		}
+
+.semibold {
+		font-family: 'Gilroy Medium', Arial, sans-serif;
+		}
+}
+
+.status {
+	&-new {
+		background: #B5F3CE;
+		width: 55px;
+	}
+	&-fixed {
+		background: #FDC8DB;
+		width: 89px;
+	}
+	&-improved {
+		background: #E0ECFF;
+		width: 77px;
+
+	}
+}

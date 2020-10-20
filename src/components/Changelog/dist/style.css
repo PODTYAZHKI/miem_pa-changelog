@@ -1,0 +1,116 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.changelog-heading {
+  height: 80px;
+  background: #EDF1F7;
+  margin-bottom: 27px;
+  display: flex;
+}
+.changelog-heading-inner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 120px;
+}
+.changelog-container {
+  font-family: "Gilroy Medium", Arial, sans-serif;
+  padding: 0 0 60px;
+  margin: 0;
+  width: 100%;
+  background-color: #F5F7FA;
+  min-height: calc(100vh - 80px);
+}
+.changelog-h1 {
+  font-family: "Gilroy Medium", Arial, sans-serif;
+  font-size: 24px;
+  margin: 0;
+}
+.changelog-button {
+  opacity: 1;
+  padding: 10px 30px;
+  background: #0486FE;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  transition: opacity 0.1 linear;
+}
+.changelog-button:hover {
+  opacity: 0.6;
+}
+.changelog-body {
+  padding: 0 120px;
+}
+.changelog-subtext {
+  height: 66px;
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 15px;
+}
+.changelog-subtext span {
+  color: #0486FE;
+  cursor: pointer;
+}
+.changelog-logs-wrapper ul {
+  margin: 0;
+  padding: 0;
+}
+.changelog-logs-wrapper .log {
+  margin-top: 24px;
+  background: #fff;
+  margin-bottom: 24px;
+  list-style-type: none;
+  max-width: 1200px;
+  padding: 30px;
+  border: 1px solid #DFE0EB;
+  border-radius: 4px;
+}
+.changelog-logs-wrapper .log-time {
+  font-weight: 600;
+  font-size: 19px;
+}
+.changelog-logs-wrapper .log .item {
+  list-style-type: none;
+}
+.changelog-logs-wrapper .log .item-status {
+  font-weight: 600;
+  font-size: 12px;
+  padding: 4px 10px;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+.changelog-logs-wrapper .log .item-more {
+  color: #4066FF;
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 4px 0;
+}
+.changelog .semibold {
+  font-family: "Gilroy Medium", Arial, sans-serif;
+}
+
+.status-new {
+  background: #B5F3CE;
+  width: 55px;
+}
+.status-fixed {
+  background: #FDC8DB;
+  width: 89px;
+}
+.status-improved {
+  background: #E0ECFF;
+  width: 77px;
+}
